@@ -2,7 +2,7 @@ package com.hrm.common;
 
 public interface AutomationConstants {
 	
-	//Ashwin
+	//Ashwin Kallingal
 	
 	public static final String CONFIG_FILE = "./config/config.properties";
 	
