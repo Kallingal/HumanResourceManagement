@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.hrm.scripts.VerifyLoginLogout">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="initApplication"/>
+          <include name="preCondition"/>
+          <include name="testLoginLogout"/>
+          <include name="initFramework"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.VerifyLoginLogout -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

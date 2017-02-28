@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18602" started-at="2017-02-28T14:32:14Z" finished-at="2017-02-28T14:32:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18602" started-at="2017-02-28T14:32:14Z" finished-at="2017-02-28T14:32:33Z">
+      <class name="com.hrm.scripts.VerifyLoginLogout">
+        <test-method status="PASS" signature="initFramework()[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="initFramework" is-config="true" duration-ms="878" started-at="2017-02-28T20:02:13Z" finished-at="2017-02-28T20:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFramework -->
+        <test-method status="PASS" signature="initBrowser(java.lang.String)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="initBrowser" is-config="true" duration-ms="8" started-at="2017-02-28T20:02:14Z" finished-at="2017-02-28T20:02:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="initApplication" is-config="true" duration-ms="7803" started-at="2017-02-28T20:02:14Z" finished-at="2017-02-28T20:02:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="preCondition" is-config="true" duration-ms="13" started-at="2017-02-28T20:02:22Z" finished-at="2017-02-28T20:02:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hrm.scripts.VerifyLoginLogout.testLoginLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testLoginLogout()[pri:2, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="testLoginLogout" duration-ms="8537" started-at="2017-02-28T20:02:22Z" finished-at="2017-02-28T20:02:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogout -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="postCondition" is-config="true" duration-ms="10" started-at="2017-02-28T20:02:31Z" finished-at="2017-02-28T20:02:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginLogout status=SUCCESS method=VerifyLoginLogout.testLoginLogout()[pri:2, instance:com.hrm.scripts.VerifyLoginLogout@198378d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="closeApplication" is-config="true" duration-ms="1686" started-at="2017-02-28T20:02:31Z" finished-at="2017-02-28T20:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="closeBrowser" is-config="true" duration-ms="2" started-at="2017-02-28T20:02:33Z" finished-at="2017-02-28T20:02:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeFramework()[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="closeFramework" is-config="true" duration-ms="776" started-at="2017-02-28T20:02:33Z" finished-at="2017-02-28T20:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFramework -->
+      </class> <!-- com.hrm.scripts.VerifyLoginLogout -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
