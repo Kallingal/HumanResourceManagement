@@ -1,0 +1,14 @@
+com.hrm.scripts.VerifyLoginLogout 2017-03-01 13:08:32,869 com.hrm.common.BaseTest.initFramework(BaseTest.java:57) Extent Report Initiated 
+com.hrm.scripts.VerifyLoginLogout 2017-03-01 13:08:33,697 com.hrm.common.BaseTest.initBrowser(BaseTest.java:80) Execution Started in browser:chrome 
+com.hrm.scripts.VerifyMultipleLogin 2017-03-01 13:08:33,715 com.hrm.common.BaseTest.initApplication(BaseTest.java:98) Application Opened 
+com.hrm.scripts.VerifyMultipleLogin 2017-03-01 13:08:45,723 com.hrm.common.BaseTest.preCondition(BaseTest.java:144) Explicit Login 
+com.hrm.scripts.VerifyMultipleLogin 2017-03-01 13:08:53,031 com.hrm.common.BaseTest.postCondition(BaseTest.java:164) Explicit Logout 
+com.hrm.scripts.VerifyMultipleLogin 2017-03-01 13:08:53,043 com.hrm.common.BaseTest.preCondition(BaseTest.java:144) Explicit Login 
+com.hrm.scripts.VerifyMultipleLogin 2017-03-01 13:08:59,720 com.hrm.common.BaseTest.postCondition(BaseTest.java:164) Explicit Logout 
+com.hrm.scripts.VerifyMultipleLogin 2017-03-01 13:08:59,722 com.hrm.common.BaseTest.closeApplication(BaseTest.java:120) Application Closed 
+com.hrm.scripts.VerifyLoginLogout 2017-03-01 13:09:01,494 com.hrm.common.BaseTest.initApplication(BaseTest.java:98) Application Opened 
+com.hrm.scripts.VerifyLoginLogout 2017-03-01 13:09:07,362 com.hrm.common.BaseTest.preCondition(BaseTest.java:144) Explicit Login 
+com.hrm.scripts.VerifyLoginLogout 2017-03-01 13:09:14,744 com.hrm.common.BaseTest.postCondition(BaseTest.java:164) Explicit Logout 
+com.hrm.scripts.VerifyLoginLogout 2017-03-01 13:09:14,746 com.hrm.common.BaseTest.closeApplication(BaseTest.java:120) Application Closed 
+com.hrm.scripts.VerifyLoginLogout 2017-03-01 13:09:16,021 com.hrm.common.BaseTest.closeBrowser(BaseTest.java:90) Execution Ended in browser:chrome 
+com.hrm.scripts.VerifyLoginLogout 2017-03-01 13:09:16,053 com.hrm.common.BaseTest.closeFramework(BaseTest.java:71) Extent Report Closed 
