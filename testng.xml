@@ -4,7 +4,8 @@
   <test name="Test">
   <parameter name = "browser" value = "chrome"/>
     <classes>
-    <class name="com.hrm.scripts.VerifyLoginLogout"/>      
+    <class name="com.hrm.scripts.VerifyLoginLogout"/> 
+    <class name="com.hrm.scripts.VerifyMultipleLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
