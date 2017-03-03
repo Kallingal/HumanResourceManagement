@@ -15,6 +15,16 @@ public class HomePage extends BasePage{
 	
 	@FindBy(id ="menu_pim_viewPimModule")
 	private WebElement PIM;
+	
+	@FindBy(id ="menu_pim_addEmployee")
+	private WebElement addEmployee;	
+	
+	@FindBy(id ="menu_pim_viewEmployeeList")
+	private WebElement employeeList;
+	
+	@FindBy(id ="menu_admin_viewAdminModule")
+	private WebElement Admin;
+	
 
 	public HomePage(WebDriver driver) 
 	{
@@ -37,4 +47,23 @@ public class HomePage extends BasePage{
 		waitForElementPresent(PIM);
 		PIM.click();
 	}	
+	
+	public void clickaddEmployee()
+	{
+		waitForElementPresent(addEmployee);
+		addEmployee.click();
+	}
+	
+	public void clickEmployeeList()
+	{
+		waitForElementPresent(employeeList);
+		employeeList.click();
+	}
+	
+	public void clickAdmin()
+	{
+		waitForElementPresent(Admin);
+		Admin.click();
+	}
+	
 }

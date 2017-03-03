@@ -4,9 +4,13 @@ import java.lang.reflect.Method;
 import java.sql.SQLException;
 import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -134,6 +138,11 @@ public class BaseTest implements AutomationConstants
 			driver.manage().window().maximize();
 	    	driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);  
 			LoginPage lp = new LoginPage(driver);
+			
+			WebElement element = driver.findElement(By.id("txtUsername"));
+			WebDriverWait wait = new WebDriverWait(driver,30);
+			wait.until(ExpectedConditions.visibilityOf(element));
+			
 			lp.setUserName(un);
 			lp.setPassword(pw);
 			lp.clickLogin();
@@ -155,6 +164,11 @@ public class BaseTest implements AutomationConstants
 		{
 			log.info("Implicit Logout");
 			HomePage hp = new HomePage(driver);
+			
+			WebElement element = driver.findElement(By.id("welcome"));
+			WebDriverWait wait = new WebDriverWait(driver,30);
+			wait.until(ExpectedConditions.visibilityOf(element));
+			
 			hp.clickWelcome();
 			hp.clickLogout();
 			hp.verifyURLhas(loginpage);			
