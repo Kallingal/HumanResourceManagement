@@ -4,7 +4,10 @@
   <test name="Test">
   <parameter name = "browser" value = "chrome"/>
     <classes>
-    <class name="com.hrm.scripts.VerifyLoginLogout"/>      
+         <class name="com.hrm.scripts.VerifyLoginLogout"/>
+         <class name="com.hrm.scripts.VerifyMultipleLogin"/>
+         <class name="com.hrm.scripts.VerifyAddDeleteEmployee"/>
+         <class name="com.hrm.scripts.VerifyAddDeleteUser"/>          
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

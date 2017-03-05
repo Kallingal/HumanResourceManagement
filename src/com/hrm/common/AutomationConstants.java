@@ -2,6 +2,8 @@ package com.hrm.common;
 
 public interface AutomationConstants {
 	
+	//Ashwin Kallingal
+	
 	public static final String CONFIG_FILE = "./config/config.properties";
 	
 	public static final String CHROME_KEY = "webdriver.chrome.driver";

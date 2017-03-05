@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="12" total="17" passed="5">
   <reporter-output>
+    <line>
+      <![CDATA[Pass: Employee is present in the Table]]>
+    </line>
+    <line>
+      <![CDATA[Pass: Employee is not present in the Table]]>
+    </line>
+    <line>
+      <![CDATA[Pass: Employee is present in the Table]]>
+    </line>
+    <line>
+      <![CDATA[Pass: User is present in the Table]]>
+    </line>
+    <line>
+      <![CDATA[Pass: User is not present in the Table]]>
+    </line>
+    <line>
+      <![CDATA[Pass: Employee is not present in the Table]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="18602" started-at="2017-02-28T14:32:14Z" finished-at="2017-02-28T14:32:33Z">
+  <suite name="Suite" duration-ms="305237" started-at="2017-03-03T11:18:07Z" finished-at="2017-03-03T11:23:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18602" started-at="2017-02-28T14:32:14Z" finished-at="2017-02-28T14:32:33Z">
+    <test name="Test" duration-ms="305237" started-at="2017-03-03T11:18:07Z" finished-at="2017-03-03T11:23:12Z">
       <class name="com.hrm.scripts.VerifyLoginLogout">
-        <test-method status="PASS" signature="initFramework()[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="initFramework" is-config="true" duration-ms="878" started-at="2017-02-28T20:02:13Z" finished-at="2017-02-28T20:02:14Z">
+        <test-method status="PASS" signature="initFramework()[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@d56d67]" name="initFramework" is-config="true" duration-ms="863" started-at="2017-03-03T16:48:06Z" finished-at="2017-03-03T16:48:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initFramework -->
-        <test-method status="PASS" signature="initBrowser(java.lang.String)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="initBrowser" is-config="true" duration-ms="8" started-at="2017-02-28T20:02:14Z" finished-at="2017-02-28T20:02:14Z">
+        <test-method status="PASS" signature="initBrowser(java.lang.String)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@d56d67]" name="initBrowser" is-config="true" duration-ms="9" started-at="2017-03-03T16:48:07Z" finished-at="2017-03-03T16:48:07Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="initApplication" is-config="true" duration-ms="7803" started-at="2017-02-28T20:02:14Z" finished-at="2017-02-28T20:02:22Z">
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@d56d67]" name="initApplication" is-config="true" duration-ms="4693" started-at="2017-03-03T16:48:35Z" finished-at="2017-03-03T16:48:39Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +51,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initApplication -->
-        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="preCondition" is-config="true" duration-ms="13" started-at="2017-02-28T20:02:22Z" finished-at="2017-02-28T20:02:22Z">
+        <test-method status="PASS" signature="testLoginLogout()[pri:2, instance:com.hrm.scripts.VerifyLoginLogout@d56d67]" name="testLoginLogout" duration-ms="6037" started-at="2017-03-03T16:48:39Z" finished-at="2017-03-03T16:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogout -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@d56d67]" name="preCondition" is-config="true" duration-ms="0" started-at="2017-03-03T16:48:39Z" finished-at="2017-03-03T16:48:39Z">
           <params>
             <param index="0">
               <value>
@@ -44,26 +66,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testLoginLogout()[pri:2, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="testLoginLogout" duration-ms="8537" started-at="2017-02-28T20:02:22Z" finished-at="2017-02-28T20:02:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginLogout -->
-        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="postCondition" is-config="true" duration-ms="10" started-at="2017-02-28T20:02:31Z" finished-at="2017-02-28T20:02:31Z">
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@d56d67]" name="postCondition" is-config="true" duration-ms="1" started-at="2017-03-03T16:48:46Z" finished-at="2017-03-03T16:48:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testLoginLogout status=SUCCESS method=VerifyLoginLogout.testLoginLogout()[pri:2, instance:com.hrm.scripts.VerifyLoginLogout@198378d] output={null}]]]>
+                <![CDATA[[TestResult name=testLoginLogout status=SUCCESS method=VerifyLoginLogout.testLoginLogout()[pri:2, instance:com.hrm.scripts.VerifyLoginLogout@d56d67] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="closeApplication" is-config="true" duration-ms="1686" started-at="2017-02-28T20:02:31Z" finished-at="2017-02-28T20:02:33Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@d56d67]" name="closeApplication" is-config="true" duration-ms="1293" started-at="2017-03-03T16:48:46Z" finished-at="2017-03-03T16:48:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="closeBrowser" is-config="true" duration-ms="2" started-at="2017-02-28T20:02:33Z" finished-at="2017-02-28T20:02:33Z">
+        <test-method status="PASS" signature="closeBrowser(java.lang.String)[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@d56d67]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2017-03-03T16:53:12Z" finished-at="2017-03-03T16:53:12Z">
           <params>
             <param index="0">
               <value>
@@ -74,11 +92,208 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closeFramework()[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@198378d]" name="closeFramework" is-config="true" duration-ms="776" started-at="2017-02-28T20:02:33Z" finished-at="2017-02-28T20:02:34Z">
+        <test-method status="PASS" signature="closeFramework()[pri:0, instance:com.hrm.scripts.VerifyLoginLogout@d56d67]" name="closeFramework" is-config="true" duration-ms="757" started-at="2017-03-03T16:53:12Z" finished-at="2017-03-03T16:53:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeFramework -->
       </class> <!-- com.hrm.scripts.VerifyLoginLogout -->
+      <class name="com.hrm.scripts.VerifyAddDeleteUser">
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.hrm.scripts.VerifyAddDeleteUser@d25987]" name="initApplication" is-config="true" duration-ms="7635" started-at="2017-03-03T16:50:13Z" finished-at="2017-03-03T16:50:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.hrm.scripts.VerifyAddDeleteUser@d25987]" name="preCondition" is-config="true" duration-ms="5776" started-at="2017-03-03T16:50:20Z" finished-at="2017-03-03T16:50:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hrm.scripts.VerifyAddDeleteUser.testAddDeleteUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testAddDeleteUser()[pri:4, instance:com.hrm.scripts.VerifyAddDeleteUser@d25987]" name="testAddDeleteUser" duration-ms="161096" started-at="2017-03-03T16:50:26Z" finished-at="2017-03-03T16:53:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Pass: Employee is present in the Table]]>
+            </line>
+            <line>
+              <![CDATA[Pass: User is present in the Table]]>
+            </line>
+            <line>
+              <![CDATA[Pass: User is not present in the Table]]>
+            </line>
+            <line>
+              <![CDATA[Pass: Employee is not present in the Table]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddDeleteUser -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.hrm.scripts.VerifyAddDeleteUser@d25987]" name="postCondition" is-config="true" duration-ms="1" started-at="2017-03-03T16:53:07Z" finished-at="2017-03-03T16:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddDeleteUser status=SUCCESS method=VerifyAddDeleteUser.testAddDeleteUser()[pri:4, instance:com.hrm.scripts.VerifyAddDeleteUser@d25987] output=Pass: Employee is present in the Table]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.hrm.scripts.VerifyAddDeleteUser@d25987]" name="closeApplication" is-config="true" duration-ms="4871" started-at="2017-03-03T16:53:07Z" finished-at="2017-03-03T16:53:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.hrm.scripts.VerifyAddDeleteUser -->
+      <class name="com.hrm.scripts.VerifyAddDeleteEmployee">
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.hrm.scripts.VerifyAddDeleteEmployee@1fa1d9b]" name="initApplication" is-config="true" duration-ms="7936" started-at="2017-03-03T16:48:47Z" finished-at="2017-03-03T16:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.hrm.scripts.VerifyAddDeleteEmployee@1fa1d9b]" name="preCondition" is-config="true" duration-ms="4115" started-at="2017-03-03T16:48:55Z" finished-at="2017-03-03T16:48:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hrm.scripts.VerifyAddDeleteEmployee.testAddDeleteEmployee()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testAddDeleteEmployee()[pri:3, instance:com.hrm.scripts.VerifyAddDeleteEmployee@1fa1d9b]" name="testAddDeleteEmployee" duration-ms="72096" started-at="2017-03-03T16:48:59Z" finished-at="2017-03-03T16:50:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Pass: Employee is present in the Table]]>
+            </line>
+            <line>
+              <![CDATA[Pass: Employee is not present in the Table]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddDeleteEmployee -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.hrm.scripts.VerifyAddDeleteEmployee@1fa1d9b]" name="postCondition" is-config="true" duration-ms="1" started-at="2017-03-03T16:50:11Z" finished-at="2017-03-03T16:50:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddDeleteEmployee status=SUCCESS method=VerifyAddDeleteEmployee.testAddDeleteEmployee()[pri:3, instance:com.hrm.scripts.VerifyAddDeleteEmployee@1fa1d9b] output=Pass: Employee is present in the Table]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.hrm.scripts.VerifyAddDeleteEmployee@1fa1d9b]" name="closeApplication" is-config="true" duration-ms="1413" started-at="2017-03-03T16:50:11Z" finished-at="2017-03-03T16:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.hrm.scripts.VerifyAddDeleteEmployee -->
+      <class name="com.hrm.scripts.VerifyMultipleLogin">
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.hrm.scripts.VerifyMultipleLogin@18355a8]" name="initApplication" is-config="true" duration-ms="9535" started-at="2017-03-03T16:48:07Z" finished-at="2017-03-03T16:48:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.hrm.scripts.VerifyMultipleLogin@18355a8]" name="preCondition" is-config="true" duration-ms="8" started-at="2017-03-03T16:48:19Z" finished-at="2017-03-03T16:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hrm.scripts.VerifyMultipleLogin.testMultipleLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testMultipleLogin(java.lang.String, java.lang.String)[pri:1, instance:com.hrm.scripts.VerifyMultipleLogin@18355a8]" name="testMultipleLogin" duration-ms="6886" started-at="2017-03-03T16:48:19Z" data-provider="getData" finished-at="2017-03-03T16:48:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleLogin -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.hrm.scripts.VerifyMultipleLogin@18355a8]" name="postCondition" is-config="true" duration-ms="9" started-at="2017-03-03T16:48:26Z" finished-at="2017-03-03T16:48:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMultipleLogin status=SUCCESS method=VerifyMultipleLogin.testMultipleLogin(java.lang.String, java.lang.String)[pri:1, instance:com.hrm.scripts.VerifyMultipleLogin@18355a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.hrm.scripts.VerifyMultipleLogin@18355a8]" name="preCondition" is-config="true" duration-ms="2" started-at="2017-03-03T16:48:26Z" finished-at="2017-03-03T16:48:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hrm.scripts.VerifyMultipleLogin.testMultipleLogin(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testMultipleLogin(java.lang.String, java.lang.String)[pri:1, instance:com.hrm.scripts.VerifyMultipleLogin@18355a8]" name="testMultipleLogin" duration-ms="5726" started-at="2017-03-03T16:48:26Z" data-provider="getData" finished-at="2017-03-03T16:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleLogin -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.hrm.scripts.VerifyMultipleLogin@18355a8]" name="postCondition" is-config="true" duration-ms="1" started-at="2017-03-03T16:48:32Z" finished-at="2017-03-03T16:48:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMultipleLogin status=SUCCESS method=VerifyMultipleLogin.testMultipleLogin(java.lang.String, java.lang.String)[pri:1, instance:com.hrm.scripts.VerifyMultipleLogin@18355a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.hrm.scripts.VerifyMultipleLogin@18355a8]" name="closeApplication" is-config="true" duration-ms="2661" started-at="2017-03-03T16:48:32Z" finished-at="2017-03-03T16:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.hrm.scripts.VerifyMultipleLogin -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
